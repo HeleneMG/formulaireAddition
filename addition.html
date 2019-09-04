@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="addition.css">
+    <title>Formulaire Opérations</title>
+</head>
+
+<body>
+    <h1>Formulaire Opérations</h1>
+    <div class="formulaire">
+    <form action="addition.html">
+        <label for="nb1"></label>
+        <input type="number" id="nb1" name="nb1" placeholder="Nombre 1">
+        <label for="nb2"></label>
+        <input type="number" id="nb2" name="nb2" placeholder="Nombre 2"></br>
+
+        <button class="bouton" id="ajouter" type="button" title="ajouter" onclick="addition()">Ajouter</button>
+        <button class="bouton" id="soustraire" type="button" title="soustraire" onclick="soustraction()">Soustraire</button>
+
+        <label for="result"></label>
+        <input type="number" id="result" name="result" placeholder="Résultat">
+
+        <button class="bouton" id="reset" type="reset" title="reset">Reset</button>
+    </form>
+    </div>
+    <script src="addition.js"></script>
+</body>
+</html>
